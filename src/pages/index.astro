@@ -1,7 +1,14 @@
+---
+const description =
+  "I'm a versatile problem solver, who finds mental challenges in technology and physical ones in Jiu-jitsu. I strongly believe in the power of collaboration and am constantly seeking new opportunities to tackle with a team that shares my values and vision.";
+
+const title = "Yazan Abuashour";
+---
+
 <html lang="en">
   <head>
-    <title>Yazan Abuashour</title>
-    <meta name="description" content="Engineering Technology" />
+    <title>{title}</title>
+    <meta name="description" content={description} />
     <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png" />
     <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png" />
     <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png" />
@@ -15,14 +22,11 @@
         <div
           class="mb-8 w-full text-center text-white lg:mb-0 lg:w-1/2 lg:text-left"
         >
-          <h1 class="mb-4 lg:text-4xl text-8xl font-bold">Yazan Abuashour</h1>
+          <h1 class="mb-4 lg:text-4xl text-8xl font-bold">{title}</h1>
           <p
             class="mb-16 mt-12 lg:mt-0 lg:mb-8 lg:text-lg text-4xl text-gray-200 lg:mr-4"
           >
-            I'm a versatile problem solver, who finds mental challenges in
-            technology and physical ones in Jiu-jitsu. I strongly believe in the
-            power of collaboration and am constantly seeking new opportunities
-            to tackle with a team that shares my values and vision.
+            {description}
           </p>
           <a
             href="https://www.linkedin.com/in/yazan-abuashour-507a08171/"
@@ -77,7 +81,7 @@
           <img
             class="mb-8 rounded-lg lg:mb-0"
             src="/profile.JPG"
-            alt="profile"
+            alt="profile picture"
           />
         </div>
       </div>
