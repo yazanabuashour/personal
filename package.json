@@ -2,6 +2,7 @@
   "name": "personal",
   "type": "module",
   "version": "0.0.1",
+  "description": "Yazan Abuashour's personal webiste",
   "scripts": {
     "dev": "astro dev",
     "start": "astro dev",
