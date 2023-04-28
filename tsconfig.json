@@ -8,6 +8,7 @@
     "esModuleInterop": true,
     "target": "ES2021",
     "jsx": "preserve",
-    "module": "ESNext"
+    "module": "ESNext",
+    "noImplicitAny": true
   }
 }
